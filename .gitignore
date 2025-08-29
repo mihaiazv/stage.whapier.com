@@ -1,0 +1,15 @@
+node_modules/puppeteer/.local-chromium/
+# ignore the one remaining libphonenumber helper
+node_modules/libphonenumber-js/source/helpers/extractCountryCallingCodeFromInternationalNumberWithoutPlusSign.js
+node_modules/puppeteer-core/.local-chromium/mac-1045629/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Chromium Framework
+node_modules/puppeteer-core/.local-chromium/mac-1045629/chrome-mac/Chromium.app/Contents/Frameworks/Chromium Framework.framework/Versions/107.0.5296.0/Chromium Framework
+node_modules/
+/node_modules
+.DS_Store
+.DS_Store
+.DS_Store
+bootstrap/.DS_Store
+resources/.DS_Store
+resources/js/.DS_Store
+storage/.DS_Store
+public/.DS_Store

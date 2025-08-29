@@ -1,0 +1,8 @@
+[13-Jun-2025 23:48:17 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to undefined function passthru() in /home/whapier/public_html/public/build.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/whapier/public_html/public/build.php on line 20
+[13-Jun-2025 23:49:08 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to undefined function passthru() in /home/whapier/public_html/public/build.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/whapier/public_html/public/build.php on line 25
