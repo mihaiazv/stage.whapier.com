@@ -87,10 +87,17 @@ class SendUserToApi
         ];
 
         try {
-            Http::withHeaders([
+
+            $response = Http::withHeaders([
                 'Authorization' => 'Bearer ' . $token,
                 'Content-Type' => 'application/json',
             ])->post($url, $payload);
+
+            Log::info('Sent registration data to API', [
+                'status' => $response->status(),
+                'url' => $url,
+            ]);
+
         } catch (\Throwable $e) {
             Log::error('Failed to send registration data to API: ' . $e->getMessage());
         }

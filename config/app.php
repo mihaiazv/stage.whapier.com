@@ -62,6 +62,10 @@ if (is_dir(base_path('modules/Impersonation')) && class_exists(\Modules\Imperson
     $providers[] = \Modules\Impersonation\Providers\ImpersonationServiceProvider::class;
 }
 
+if (is_dir(base_path('modules/RegistrationApi')) && class_exists(\Modules\RegistrationApi\Providers\RegistrationApiServiceProvider::class)) {
+    $providers[] = \Modules\RegistrationApi\Providers\RegistrationApiServiceProvider::class;
+}
+
 
 return [
 
